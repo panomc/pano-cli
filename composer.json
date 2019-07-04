@@ -1,0 +1,7 @@
+{
+    "name": "pano/cli-app",
+    "description": "Command Line Interface Application for Pano.",
+    "type": "project",
+    "license": "GPL-3.0-only",
+    "require": {}
+}

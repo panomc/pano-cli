@@ -11,7 +11,6 @@ build
 .idea/
 nbproject/
 .vscode
-vendor
 
 # hidden files created by Windows
 Thumbs.db
@@ -19,8 +18,4 @@ desktop.ini
 
 .directory
 
-pano/view/common/node_modules
-pano/vendor/
-
-pano/config/config.json
-pano/PanoLocalDB.sqlite
+vendor

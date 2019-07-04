@@ -6,8 +6,6 @@ use CLIFramework\Command;
 
 class Serve extends Command
 {
-
-
     public function brief()
     {
         return 'Start Pano web server';
@@ -23,7 +21,6 @@ class Serve extends Command
         $opts->add('p|port:', 'option requires a value.')->isa('String');
         $opts->add('h|host:', 'option requires a value.')->isa('String');
     }
-
 
     function execute()
     {

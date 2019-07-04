@@ -5,7 +5,4 @@
  *
  */
 
-defined('PANO_ROOT') or define('PANO_ROOT', __DIR__);
-defined('PANO_APP_ROOT') or define('PANO_APP_ROOT', PANO_ROOT . '/pano/');
-
-require PANO_APP_ROOT . 'console/pano-cli';
+require_once 'app.php';

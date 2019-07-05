@@ -24,8 +24,6 @@ class Serve extends Command
 
     function execute()
     {
-        global $running;
-
         $logger = $this->logger;
 
         $options = [
@@ -41,7 +39,7 @@ class Serve extends Command
             $options['host'] = $this->options->host;
         }
 
-        printf('Running PHP server on: ' . $options['host'] . ':' . $options['port'] . '%s', PHP_EOL);
+        $logger->info('Running PHP server on: ' . $options['host'] . ':' . $options['port']);
 
         echo exec('php -S ' . $options['host'] . ':' . $options['port'] . ' ' . PANO_ROOT . '/index.php');
 
